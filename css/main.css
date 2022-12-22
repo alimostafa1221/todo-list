@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(6, 6, 44);
+}
+
+.todo {
+    background-color: white;
+    border-radius: 8px;
+    width: 70%;
+}
+.text {
+    border: 0 solid;
+    outline: none;
+    border-radius: 8px;
+    background-color: white;
+    color: rgb(6, 6, 44);
+    padding: 0px 10px;
+    width: 85%;
+    font-size: 20px;
+}
+.add {
+    font-size: 28px;
+}
+.plus {
+    border: 0 solid;
+    outline: none;
+    border-radius: 8px;
+    background-color: #6440fb;
+    color: white;
+    padding-bottom: 5px;
+    width: calc(100% - 85%);
+}
+
+
+@media (max-width:600px) {
+    .todo{
+        width: 100%;
+    }
+    .text {
+        width: 75%;
+    }
+    .plus {
+        width: calc(100% - 75%);
+    }
+}
